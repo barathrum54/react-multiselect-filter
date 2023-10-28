@@ -1,0 +1,42 @@
+.multi-select-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 0px 30px;
+  padding-bottom: 20px;
+}
+.multi-select-wrapper .title {
+  font-weight: 600;
+  padding-inline-start: 7px;
+}
+.multi-select-wrapper .multi-select-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 60%;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.multi-select-wrapper .multi-select-content {
+  scrollbar-width: auto;
+  scrollbar-color: #c7c2be #ffffff;
+}
+
+.multi-select-wrapper .multi-select-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.multi-select-wrapper .multi-select-content::-webkit-scrollbar-track {
+  background: #e8e6e7;
+  border-radius: 10px;
+}
+
+.multi-select-wrapper .multi-select-content::-webkit-scrollbar-thumb {
+  background-color: #c7c2be;
+  border-radius: 10px;
+  border: 3px solid #c7c2be;
+}

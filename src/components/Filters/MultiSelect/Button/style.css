@@ -1,0 +1,26 @@
+.multi-select-button {
+  background-color: #3064d0;
+  color: white;
+  padding-block: 15px;
+  border-radius: 5px;
+  outline: none !important;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.multi-select-button:hover {
+  background-color: #2d5dc4;
+}
+.multi-select-button:active {
+  background-color: #2a57b7;
+}
+.multi-select-button:disabled {
+  background-color: #4b6eba;
+  color: white;
+  padding-block: 15px;
+  border-radius: 5px;
+  outline: none !important;
+  font-size: 20px;
+  border: none;
+  cursor: default;
+}
