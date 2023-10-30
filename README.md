@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/logo.png" style="object-fit:contain; width:100%"/>
+  <img src="./public/logo.png" style="object-fit:contain; width:300px"/>
 </div>
 
 # Multi-Select Filter Concept
